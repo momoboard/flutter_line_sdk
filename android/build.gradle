@@ -31,6 +31,10 @@ android {
     }
     compileSdk 33
 
+    buildFeatures {
+        buildConfig true
+    }
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
